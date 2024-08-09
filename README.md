@@ -29,6 +29,7 @@ Phi-3, is a family of open AI models developed by Microsoft. Phi-3 models are th
   - [Phi-3 Models & Availability across platforms](./md/01.Introduce/Edgeandcloud.md)(✅)
 
 - Quick Start
+  - [Using Phi-3 in GitHub Model Catalog](./md/02.QuickStart/GitHubModel_QuickStart.md)(✅)
   - [Using Phi-3 in Hugging face](./md/02.QuickStart/Huggingface_QuickStart.md)(✅)
   - [Using Phi-3 in Azure AI Studio](./md/02.QuickStart/AzureAIStudio_QuickStart.md)(✅)
   - [Using Phi-3 Model Inference with Azure MaaS or MaaP](./md/02.QuickStart/AzureModel_Inference.md)(✅)
@@ -75,8 +76,12 @@ Phi-3, is a family of open AI models developed by Microsoft. Phi-3 models are th
   - [Prepare your industry data](./md/06.E2ESamples/E2E_Datasets.md)(✅)
   - [Use Microsoft Olive to architect your projects](./md/06.E2ESamples/E2E_LoRA&QLoRA_Config_With_Olive.md)(✅)
   - [Inference Your Fine-tuning ONNX Runtime Model](./md/06.E2ESamples/E2E_Inference_ORT.md)(✅)
+  - [Local Chatbot on Android with Phi-3, ONNXRuntime Mobile and ONNXRuntime Generate API](https://github.com/microsoft/onnxruntime-inference-examples/tree/main/mobile/examples/phi-3/android)(✅)
+  - [Local Chatbot in the browser using Phi3, ONNX Runtime Web and WebGPU](https://github.com/microsoft/onnxruntime-inference-examples/tree/main/js/chat)(✅)
   - [Multi Model - Interactive Phi-3-mini and OpenAI Whisper](./md/06.E2ESamples/E2E_Phi-3-mini_with_whisper.md)(✅)
+  - [WebGPU and Phi-3-mini - Phi-3-mini provides the user with a private (and powerful) chatbot experience. You can try it out](https://huggingface.co/spaces/Xenova/experimental-phi3-webgpu)(✅)
   - [MLFlow - Building a wrapper and using Phi-3 with MLFlow](./md/06.E2ESamples/E2E_Phi-3-MLflow.md)(✅)
+  - [Model Optimization - How to optimize Phi-3-min model for ONNX Runtime Web with Olive] (https://github.com/microsoft/Olive/tree/main/examples/phi3)(✅)
   - [WinUI3 App with Phi-3 mini-4k-instruct-onnx](https://github.com/microsoft/Phi3-Chat-WinUI3-Sample/)(✅)
   - [WinUI3 Multi Model AI Powered Notes App Sample](https://github.com/microsoft/ai-powered-notes-winui3-sample)(✅)
   - [Fine-tune and Integrate custom Phi-3 models with Prompt flow](./md/06.E2ESamples/E2E_Phi-3-FineTuning_PromptFlow_Integration.md)(✅)
@@ -104,10 +109,16 @@ Phi-3, is a family of open AI models developed by Microsoft. Phi-3 models are th
 
 ### Phi-3 on Azure AI Studio
 
-You can learn how to use Microsoft Phi-3 and how to build E2E solutions in your different hardware devices. To experience Phi-3 for yourself, start by playing with the model and customizing Phi-3 for your scenarios using the [Azure AI Studio, Azure AI Model Catalog](https://aka.ms/phi3-azure-ai)
+You can learn how to use Microsoft Phi-3 and how to build E2E solutions in your different hardware devices. To experience Phi-3 for yourself, start by playing with the model and customizing Phi-3 for your scenarios using the [Azure AI Studio, Azure AI Model Catalog](https://aka.ms/phi3-azure-ai) you can learn more at Getting Started with [Azure AI Studio](/md/02.QuickStart/AzureAIStudio_QuickStart.md)
 
 **Playground**
 Each model has a dedicated playground to test the model [Azure AI Playground](https://aka.ms/try-phi3).
+
+### Phi-3 on GitHub Models
+You can learn how to use Microsoft Phi-3 and how to build E2E solutions in your different hardware devices. To experience Phi-3 for yourself, start by playing with the model and customizing Phi-3 for your scenarios using the [GitHub Model Catalog](https://github.com/marketplace/models?WT.mc_id=aiml-137032-kinfeylo) you can learn more at Getting Started with [GitHub Model Catalog](/md/02.QuickStart/GitHubModel_QuickStart.md)
+
+**Playground**
+Each model has a dedicated [playground to test the model](/md/02.QuickStart/GitHubModel_QuickStart.md).
 
 ### Phi-3 on Hugging Face
 
